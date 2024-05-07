@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Homepage">
+    <classes>
+      <class name="com.CRM.Tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="LoginPage">
+    <classes>
+      <class name="com.CRM.Tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
