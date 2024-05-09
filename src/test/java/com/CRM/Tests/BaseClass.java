@@ -28,6 +28,7 @@ public class BaseClass {
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		 driver.get("https://automationplayground.com/crm/");
+		 
 		 h1 = new HomePage(driver);
 		 p1 = new LoginPage(driver);
 	}	

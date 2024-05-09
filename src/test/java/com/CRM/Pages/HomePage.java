@@ -3,6 +3,8 @@ package com.CRM.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import CRM.Utility.Utility;
+
 public class HomePage {
 	//Encapsulation= indenfication(Locators)  + Action (Always data is private and method is public)
 	private WebDriver driver; //instancse driver
@@ -27,7 +29,9 @@ public class HomePage {
     }
     public String getSignIN()
     {
+      Utility.capture(driver);	
     driver.findElement(link).click();
+    Utility.capture(driver);	
     return driver.getCurrentUrl(); //login
     }
 	
