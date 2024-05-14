@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="bname" value ="chrome"></parameter> 
+    <classes>
+      <class name="SelenuimGridWithDocker.ParrallelTest"/>
+    </classes>
+   </test>
+     <test thread-count="5" name="FirfoxTest">
+     <parameter name="bname" value ="firefox"></parameter> 
+    <classes>
+      <class name="SelenuimGridWithDocker.ParrallelTest"/>
+    </classes>
+   </test>
+     <test thread-count="5" name="EdgeTest">
+     <parameter name="bname" value ="edge"></parameter> 
+    <classes>
+      <class name="SelenuimGridWithDocker.ParrallelTest"/>
+    </classes>
+   </test>
+</suite> <!-- Suite -->

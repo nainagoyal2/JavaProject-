@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CRM.Tests.Login">
+      <class name="SelenuimGridWithDocker.ParrallelTest">
         <methods>
-          <include name="ValidateLogin"/>
-          <include name="CloseBrowser"/>
-          <include name="SetUpBrowser"/>
+          <include name="testGrid"/>
         </methods>
-      </class> <!-- com.CRM.Tests.Login -->
+      </class> <!-- SelenuimGridWithDocker.ParrallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
